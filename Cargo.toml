@@ -1,0 +1,10 @@
+[package]
+name = "SigmaOS-dm-integrity"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+description = "SigmaOS dm-integrity component - filesystem"
+
+[lib]
+name = "dm_integrity"
+path = "src/lib.rs"
